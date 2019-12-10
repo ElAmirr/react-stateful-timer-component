@@ -1,22 +1,23 @@
-.App {
+.time-container {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.time-inner-container {
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time-digits {
+  font-size: 10em;
+}
+.time-text {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  color: grey;
+  font-size: 2em;
+  padding-left: 60px;
 }
-
-.App-link {
-  color: #09d3ac;
+.time-button {
+  text-align-last: center;
+  margin-top: 50px;
+}
+.button-container {
+  font-size: 2Oem;
 }
